@@ -1,0 +1,7 @@
+C:\Users\Zach Nichols\ElevenFiftyProjects\Practice\2021AdventChallenges\2021AdventChallenges\bin\Debug\2021AdventChallenges.exe.config
+C:\Users\Zach Nichols\ElevenFiftyProjects\Practice\2021AdventChallenges\2021AdventChallenges\bin\Debug\2021AdventChallenges.exe
+C:\Users\Zach Nichols\ElevenFiftyProjects\Practice\2021AdventChallenges\2021AdventChallenges\bin\Debug\2021AdventChallenges.pdb
+C:\Users\Zach Nichols\ElevenFiftyProjects\Practice\2021AdventChallenges\2021AdventChallenges\obj\Debug\2021AdventChallenges.csproj.AssemblyReference.cache
+C:\Users\Zach Nichols\ElevenFiftyProjects\Practice\2021AdventChallenges\2021AdventChallenges\obj\Debug\2021AdventChallenges.csproj.CoreCompileInputs.cache
+C:\Users\Zach Nichols\ElevenFiftyProjects\Practice\2021AdventChallenges\2021AdventChallenges\obj\Debug\2021AdventChallenges.exe
+C:\Users\Zach Nichols\ElevenFiftyProjects\Practice\2021AdventChallenges\2021AdventChallenges\obj\Debug\2021AdventChallenges.pdb
