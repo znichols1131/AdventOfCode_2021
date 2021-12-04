@@ -7,4 +7,5 @@ This is my first attempt doing the [Advent of Code](https://adventofcode.com/202
 - Day 1
 - Day 2
 - Day 3
+- Day 4
 

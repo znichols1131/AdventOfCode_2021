@@ -43,8 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Challenge_03a.cs" />
-    <Compile Include="Challenge_03b.cs" />
+    <Compile Include="Challenge_04a.cs" />
+    <Compile Include="Challenge_04b.cs" />
+    <Compile Include="CompletedChallenges\Challenge_03a.cs" />
+    <Compile Include="CompletedChallenges\Challenge_03b.cs" />
     <Compile Include="CompletedChallenges\Challenge_01b.cs" />
     <Compile Include="CompletedChallenges\Challenge_02a.cs" />
     <Compile Include="CompletedChallenges\Challenge_02b.cs" />
@@ -60,6 +62,7 @@
     <Content Include="Inputs\Challenge_01b_input.txt" />
     <Content Include="Inputs\Challenge_02a_input.txt" />
     <Content Include="Inputs\Challenge_03a_input.txt" />
+    <Content Include="Inputs\Challenge_04a_input.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
