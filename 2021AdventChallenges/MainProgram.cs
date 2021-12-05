@@ -29,10 +29,16 @@ namespace _2021AdventChallenges
             //(new Challenge_03b()).Run();
 
             // Challenge 04a
-            (new Challenge_04a()).Run();
+            //(new Challenge_04a()).Run();
 
             // Challenge 04b
             //(new Challenge_04b()).Run();
+
+            // Challenge 05a
+            //(new Challenge_05a()).Run();
+
+            // Challenge 05b
+            (new Challenge_05b()).Run();
         }
     }
 }
