@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace _2021AdventChallenges
 {
-    public class Challenge_04a
+    public class Challenge_04
     {
-        public void Run()
+        public void Challenge_A()
         {
             // Get all non-blank lines from file
             string path = @"C:\Users\Zach Nichols\ElevenFiftyProjects\Practice\2021AdventChallenges\2021AdventChallenges\Inputs\Challenge_04a_input.txt";
@@ -69,6 +69,69 @@ namespace _2021AdventChallenges
 
             Console.WriteLine("No winners");
             Console.ReadLine();
+        }
+
+        public void Challenge_B()
+        {
+            // Get all non-blank lines from file
+            string path = @"C:\Users\Zach Nichols\ElevenFiftyProjects\Practice\2021AdventChallenges\2021AdventChallenges\Inputs\Challenge_04a_input.txt";
+            List<string> listOfLines = System.IO.File.ReadAllLines(path)
+                      .Where(x => !string.IsNullOrWhiteSpace(x))
+                      .ToList<string>();
+
+            // First line will be the numbers drawn in random order
+            string chosenNumbersStr = listOfLines.First<string>();
+            listOfLines.Remove(chosenNumbersStr);
+
+            // Get list of randomly drawn numbers
+            List<int> chosenNumbers = new List<int>();
+            foreach (string str in chosenNumbersStr.Split(',').ToList<string>())
+            {
+                chosenNumbers.Add(int.Parse(str.Trim()));
+            }
+
+            // Get list of boards
+            List<List<int>> boards = new List<List<int>>();
+            while (listOfLines.Count > 5)
+            {
+                List<int> currentBoard = new List<int>();
+                for (int i = 0; i < 5; i++)
+                {
+                    foreach (string str in listOfLines[i].Split(' '))
+                    {
+                        if (str != null && str != "")
+                            currentBoard.Add(int.Parse(str.Trim()));
+                    }
+                }
+
+                boards.Add(currentBoard);
+                listOfLines.RemoveRange(0, 5);
+            }
+
+            // Play the game until only one board remains
+            while (boards.Count > 1)
+            {
+                List<List<int>> result = ReturnWinningBoard(boards, chosenNumbers);
+
+                // If a board won
+                if (result != null)
+                {
+                    List<int> winningBoard = result[0];
+                    boards.Remove(winningBoard);
+                }
+            }
+
+            List<List<int>> losingBoardResult = ReturnWinningBoard(boards, chosenNumbers);
+            List<int> losingBoard = losingBoardResult[0];
+            int finalIndex = losingBoardResult[1][0];
+
+            Console.WriteLine("Loser!\n");
+            PrintWinningNumbers(chosenNumbers.GetRange(0, finalIndex + 1));
+            Console.WriteLine();
+            PrintBoard(losingBoard, chosenNumbers.GetRange(0, finalIndex + 1));
+            Console.WriteLine("\nFinal score: " + GetScoreForBoard(losingBoard, chosenNumbers.GetRange(0, finalIndex + 1), chosenNumbers[finalIndex]));
+            Console.ReadLine();
+            return;
         }
 
         public List<List<int>> ReturnWinningBoard(List<List<int>> boards, List<int> chosenNumbers)

@@ -10,35 +10,30 @@ namespace _2021AdventChallenges
     {
         static void Main(string[] args)
         {
-            // Challenge 01a
-            //(new Challenge_01a()).Run();
+            // Challenge 01
+            //(new Challenge_01()).Challenge_A();
+            //(new Challenge_01()).Challenge_B();
 
-            // Challenge 01b
-            //(new Challenge_01b()).Run();
+            // Challenge 02
+            //(new Challenge_02()).Challenge_A();
+            //(new Challenge_02()).Challenge_B();
 
-            // Challenge 02a
-            //(new Challenge_02a()).Run();
+            // Challenge 03
+            //(new Challenge_03()).Challenge_A();
+            //(new Challenge_03()).Challenge_B();
 
-            // Challenge 02b
-            //(new Challenge_02b()).Run();
+            // Challenge 04
+            //(new Challenge_04()).Challenge_A();
+            //(new Challenge_04()).Challenge_B();
 
-            // Challenge 03a
-            //(new Challenge_03a()).Run();
+            // Challenge 05
+            //(new Challenge_05()).Challenge_A();
+            //(new Challenge_05()).Challenge_B();
 
-            // Challenge 03b
-            //(new Challenge_03b()).Run();
+            // Challenge 06
+            //(new Challenge_06()).Challenge_A();
+            (new Challenge_06()).Challenge_B();
 
-            // Challenge 04a
-            //(new Challenge_04a()).Run();
-
-            // Challenge 04b
-            //(new Challenge_04b()).Run();
-
-            // Challenge 05a
-            //(new Challenge_05a()).Run();
-
-            // Challenge 05b
-            (new Challenge_05b()).Run();
         }
     }
 }

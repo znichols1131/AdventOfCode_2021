@@ -43,17 +43,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Challenge_05a.cs" />
-    <Compile Include="Challenge_05b.cs" />
-    <Compile Include="CompletedChallenges\Challenge_04a.cs" />
-    <Compile Include="CompletedChallenges\Challenge_04b.cs" />
-    <Compile Include="CompletedChallenges\Challenge_03a.cs" />
-    <Compile Include="CompletedChallenges\Challenge_03b.cs" />
-    <Compile Include="CompletedChallenges\Challenge_01b.cs" />
-    <Compile Include="CompletedChallenges\Challenge_02a.cs" />
-    <Compile Include="CompletedChallenges\Challenge_02b.cs" />
+    <Compile Include="CompletedChallenges\Challenge_06.cs" />
+    <Compile Include="CompletedChallenges\Challenge_05.cs" />
+    <Compile Include="CompletedChallenges\Challenge_04.cs" />
+    <Compile Include="CompletedChallenges\Challenge_03.cs" />
+    <Compile Include="CompletedChallenges\Challenge_02.cs" />
     <Compile Include="MainProgram.cs" />
-    <Compile Include="CompletedChallenges\Challenge_01a.cs" />
+    <Compile Include="CompletedChallenges\Challenge_01.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -66,6 +62,7 @@
     <Content Include="Inputs\Challenge_03a_input.txt" />
     <Content Include="Inputs\Challenge_04a_input.txt" />
     <Content Include="Inputs\Challenge_05a_input.txt" />
+    <Content Include="Inputs\Challenge_06a_input.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
