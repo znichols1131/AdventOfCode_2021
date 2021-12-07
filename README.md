@@ -10,3 +10,4 @@ This is my first attempt doing the [Advent of Code](https://adventofcode.com/202
 - Day 4
 - Day 5
 - Day 6
+- Day 7
