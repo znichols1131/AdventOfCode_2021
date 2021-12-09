@@ -12,3 +12,4 @@ This is my first attempt doing the [Advent of Code](https://adventofcode.com/202
 - Day 6
 - Day 7
 - Day 8
+- Day 9
