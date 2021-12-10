@@ -36,7 +36,7 @@ namespace _2021AdventChallenges
         public void Challenge_A()
         {
             // Get lines
-            string path = @"C:\Users\Zach Nichols\ElevenFiftyProjects\Practice\2021AdventChallenges\2021AdventChallenges\Inputs\Challenge_08a_input.txt";
+            string path = @"C:\Users\Zach Nichols\ElevenFifty\Practice\2021Advent\2021AdventChallenges\Inputs\Challenge_08a_input.txt";
             List<string> lines = System.IO.File.ReadAllLines(path).ToList<string>();
 
             // Get a list of lines
@@ -118,7 +118,7 @@ namespace _2021AdventChallenges
         public void Challenge_B()
         {
             // Get lines
-            string path = @"C:\Users\Zach Nichols\ElevenFiftyProjects\Practice\2021AdventChallenges\2021AdventChallenges\Inputs\Challenge_08a_input.txt";
+            string path = @"C:\Users\Zach Nichols\ElevenFifty\Practice\2021Advent\2021AdventChallenges\Inputs\Challenge_08a_input.txt";
             List<string> lines = System.IO.File.ReadAllLines(path).ToList<string>();
 
             // Get a list of lines

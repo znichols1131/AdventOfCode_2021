@@ -13,7 +13,7 @@ namespace _2021AdventChallenges
             string gammaRateStr = "";
             string epsilonRateStr = "";
 
-            string[] data = System.IO.File.ReadAllLines(@"C:\Users\Zach Nichols\ElevenFiftyProjects\Practice\2021AdventChallenges\2021AdventChallenges\Inputs\Challenge_03a_input.txt");
+            string[] data = System.IO.File.ReadAllLines(@"C:\Users\Zach Nichols\ElevenFifty\Practice\2021Advent\2021AdventChallenges\Inputs\Challenge_03a_input.txt");
             int bitLength = data[0].Length;
 
             for(int i = 0; i < bitLength; i++)
@@ -77,7 +77,7 @@ namespace _2021AdventChallenges
 
         public string GetOxygenRating()
         {
-            List<string> data = System.IO.File.ReadAllLines(@"C:\Users\Zach Nichols\ElevenFiftyProjects\Practice\2021AdventChallenges\2021AdventChallenges\Inputs\Challenge_03a_input.txt").ToList<string>();
+            List<string> data = System.IO.File.ReadAllLines(@"C:\Users\Zach Nichols\ElevenFifty\Practice\2021Advent\2021AdventChallenges\Inputs\Challenge_03a_input.txt").ToList<string>();
             int bitLength = data[0].Length;
 
             for (int i = 0; i < bitLength; i++)

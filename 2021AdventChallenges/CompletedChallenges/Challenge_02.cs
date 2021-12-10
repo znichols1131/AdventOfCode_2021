@@ -17,7 +17,7 @@ namespace _2021AdventChallenges
             string dwnStr = "down";
             string upStr = "up";
 
-            string[] instructions = System.IO.File.ReadAllLines(@"C:\Users\Zach Nichols\ElevenFiftyProjects\Practice\2021AdventChallenges\2021AdventChallenges\Inputs\Challenge_02a_input.txt");
+            string[] instructions = System.IO.File.ReadAllLines(@"C:\Users\Zach Nichols\ElevenFifty\Practice\2021Advent\2021AdventChallenges\Inputs\Challenge_02a_input.txt");
 
             foreach (string instruction in instructions)
             {
@@ -57,7 +57,7 @@ namespace _2021AdventChallenges
             string dwnStr = "down";
             string upStr = "up";
 
-            string[] instructions = System.IO.File.ReadAllLines(@"C:\Users\Zach Nichols\ElevenFiftyProjects\Practice\2021AdventChallenges\2021AdventChallenges\Inputs\Challenge_02a_input.txt");
+            string[] instructions = System.IO.File.ReadAllLines(@"C:\Users\Zach Nichols\ElevenFifty\Practice\2021Advent\2021AdventChallenges\Inputs\Challenge_02a_input.txt");
 
             foreach (string instruction in instructions)
             {

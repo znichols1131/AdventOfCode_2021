@@ -13,7 +13,7 @@ namespace _2021AdventChallenges
             List<int> _listOfFish = new List<int>();
 
             // Get all lines from file
-            string path = @"C:\Users\Zach Nichols\ElevenFiftyProjects\Practice\2021AdventChallenges\2021AdventChallenges\Inputs\Challenge_06a_input.txt";
+            string path = @"C:\Users\Zach Nichols\ElevenFifty\Practice\2021Advent\2021AdventChallenges\Inputs\Challenge_06a_input.txt";
             List<string> lines = System.IO.File.ReadAllLines(path).ToList<string>();
 
             // Fish attributes
@@ -63,7 +63,7 @@ namespace _2021AdventChallenges
             int childStart = 8;
 
             // Get all lines from file
-            string path = @"C:\Users\Zach Nichols\ElevenFiftyProjects\Practice\2021AdventChallenges\2021AdventChallenges\Inputs\Challenge_06a_input.txt";
+            string path = @"C:\Users\Zach Nichols\ElevenFifty\Practice\2021Advent\2021AdventChallenges\Inputs\Challenge_06a_input.txt";
             List<string> lines = System.IO.File.ReadAllLines(path).ToList<string>();
 
             // Set up fish count array

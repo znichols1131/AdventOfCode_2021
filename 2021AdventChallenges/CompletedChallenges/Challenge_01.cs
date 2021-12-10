@@ -12,7 +12,7 @@ namespace _2021AdventChallenges
         {
             List<int> depths = new List<int>();
 
-            string[] depthTexts = System.IO.File.ReadAllLines(@"C:\Users\Zach Nichols\ElevenFiftyProjects\Practice\2021AdventChallenges\2021AdventChallenges\Inputs\Challenge_01a_input.txt");
+            string[] depthTexts = System.IO.File.ReadAllLines(@"C:\Users\Zach Nichols\ElevenFifty\Practice\2021Advent\2021AdventChallenges\Inputs\Challenge_01a_input.txt");
             if (depthTexts.Length == 0)
                 return;
 
@@ -57,7 +57,7 @@ namespace _2021AdventChallenges
         {
             List<int> depths = new List<int>();
 
-            string[] depthTexts = System.IO.File.ReadAllLines(@"C:\Users\Zach Nichols\ElevenFiftyProjects\Practice\2021AdventChallenges\2021AdventChallenges\Inputs\Challenge_01b_input.txt");
+            string[] depthTexts = System.IO.File.ReadAllLines(@"C:\Users\Zach Nichols\ElevenFifty\Practice\2021Advent\2021AdventChallenges\Inputs\Challenge_01b_input.txt");
             if (depthTexts.Length == 0)
                 return;
 
