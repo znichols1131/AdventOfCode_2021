@@ -56,11 +56,11 @@ namespace _2021AdventChallenges
 
             // Challenge 12
             //(new Challenge_12()).Challenge_A();
-            (new Challenge_12()).Challenge_B();
+            //(new Challenge_12()).Challenge_B();
 
             // Challenge 13
             //(new Challenge_13()).Challenge_A();
-            //(new Challenge_13()).Challenge_B();
+            (new Challenge_13()).Challenge_B();
         }
     }
 }
