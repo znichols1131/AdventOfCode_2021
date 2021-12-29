@@ -24,4 +24,6 @@ This is my first attempt doing the [Advent of Code](https://adventofcode.com/202
 - <span style="color:yellow">Day 18 (skipped)</span>
 - <span style="color:red">Day 19 (unsuccessful)</span>
 - Day 20
+- Day 21
+
 
