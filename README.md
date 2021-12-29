@@ -18,9 +18,10 @@ This is my first attempt doing the [Advent of Code](https://adventofcode.com/202
 - Day 12
 - Day 13
 - Day 14
-- Day 15 (unsuccessful)
+- <span style="color:red">Day 15 (unsuccessful)</span>
 - Day 16
 - Day 17
-- Day 18 (skipped)
-- Day 19 (unsuccessful)
+- <span style="color:yellow">Day 18 (skipped)</span>
+- <span style="color:red">Day 19 (unsuccessful)</span>
+- Day 20
 
