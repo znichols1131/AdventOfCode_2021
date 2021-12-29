@@ -21,3 +21,6 @@ This is my first attempt doing the [Advent of Code](https://adventofcode.com/202
 - Day 15 (unsuccessful)
 - Day 16
 - Day 17
+- Day 18 (skipped)
+- Day 19 (unsuccessful)
+
