@@ -26,6 +26,7 @@ This is my first attempt doing the [Advent of Code](https://adventofcode.com/202
 - Day 20
 - Day 21
 - Day 22
-
+- <span style="color:yellow">Day 23 (skipped)</span>
+- Day 24
 
 
