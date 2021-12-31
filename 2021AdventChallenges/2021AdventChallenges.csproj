@@ -46,7 +46,8 @@
     <Compile Include="Challenge_18.cs" />
     <Compile Include="Challenge_19.cs" />
     <Compile Include="Challenge_23.cs" />
-    <Compile Include="Challenge_24.cs" />
+    <Compile Include="Challenge_25.cs" />
+    <Compile Include="CompletedChallenges\Challenge_24.cs" />
     <Compile Include="CompletedChallenges\Challenge_22.cs" />
     <Compile Include="CompletedChallenges\Challenge_21.cs" />
     <Compile Include="CompletedChallenges\Challenge_20.cs" />
@@ -100,6 +101,7 @@
     <Content Include="Inputs\Challenge_22b_input.txt" />
     <Content Include="Inputs\Challenge_23a_input.txt" />
     <Content Include="Inputs\Challenge_24a_input.txt" />
+    <Content Include="Inputs\Challenge_25a_input.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

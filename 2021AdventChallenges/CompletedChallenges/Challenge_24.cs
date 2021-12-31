@@ -23,7 +23,8 @@ namespace _2021AdventChallenges
             // Get highest valid model number
             //decimal model = FindLargestValidModelNum();
 
-            // Used Excel spreadsheet to solve
+            // Used Excel spreadsheet to solve with help understanding from u/relativistic-turtle (Reddit)
+            // Source: https://www.reddit.com/r/adventofcode/comments/rnejv5/2021_day_24_solutions/?utm_source=share&utm_medium=web2x&context=3
             decimal model = 99995969919326m;
             if(RunMonad(model.ToString()) == 0)
             {
@@ -45,7 +46,8 @@ namespace _2021AdventChallenges
             // Get highest valid model number
             //decimal model = FindLargestValidModelNum();
 
-            // Used Excel spreadsheet to solve
+            // Used Excel spreadsheet to solve with help understanding from u/relativistic-turtle (Reddit)
+            // Source: https://www.reddit.com/r/adventofcode/comments/rnejv5/2021_day_24_solutions/?utm_source=share&utm_medium=web2x&context=3
             decimal model = 48111514719111m;
             if (RunMonad(model.ToString()) == 0)
             {
