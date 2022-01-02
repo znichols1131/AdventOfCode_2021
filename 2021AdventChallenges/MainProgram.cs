@@ -80,7 +80,7 @@ namespace _2021AdventChallenges
 
             // Challenge 18
             //(new Challenge_18()).Challenge_A();
-            //(new Challenge_18()).Challenge_B();
+            (new Challenge_18()).Challenge_B();
 
             // Challenge 19
             //(new Challenge_19()).Challenge_A();
@@ -107,7 +107,7 @@ namespace _2021AdventChallenges
             //(new Challenge_24()).Challenge_B();
 
             // Challenge 25
-            (new Challenge_25()).Challenge_A();
+            //(new Challenge_25()).Challenge_A();
             //(new Challenge_25()).Challenge_B();
         }
     }

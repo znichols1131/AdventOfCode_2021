@@ -21,14 +21,14 @@ This is my first attempt doing the [Advent of Code](https://adventofcode.com/202
 - <span style="color:red">Day 15 (unsuccessful)</span>
 - Day 16
 - Day 17
-- <span style="color:yellow">Day 18 (skipped)</span>
+- Day 18
 - <span style="color:red">Day 19 (unsuccessful)</span>
 - Day 20
 - Day 21
 - Day 22
 - <span style="color:yellow">Day 23 (skipped)</span>
 - Day 24
-- Day 25, Part 1 (Part 2 requires completion of all previous days)
+- <span style="color:yellow">Day 25, Part 1 (Part 2 requires completion of all previous days)</span>
 
 
 
