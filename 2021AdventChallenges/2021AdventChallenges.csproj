@@ -43,8 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Challenge_18.cs" />
     <Compile Include="Challenge_19.cs" />
+    <Compile Include="CompletedChallenges\Challenge_18.cs" />
+    <Compile Include="Archived\Challenge_19_outdated.cs" />
     <Compile Include="Challenge_23.cs" />
     <Compile Include="Challenge_25.cs" />
     <Compile Include="CompletedChallenges\Challenge_24.cs" />
