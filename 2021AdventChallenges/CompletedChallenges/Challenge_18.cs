@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -13,8 +14,8 @@ namespace _2021AdventChallenges
         public void Challenge_A()
         {
             // Get input
-            string path = @"C:\Users\Zach Nichols\ElevenFifty\Practice\2021Advent\2021AdventChallenges\Inputs\Challenge_18a_input.txt";
-            string[] lines = System.IO.File.ReadAllLines(path);
+            string filePath = Path.Combine(@"..\..\Inputs\", "Challenge_18a_input.txt");
+            string[] lines = System.IO.File.ReadAllLines(filePath);
 
             // Create snail pair inputs
             foreach (string newSnailPair in lines)
@@ -46,15 +47,15 @@ namespace _2021AdventChallenges
 
         public void Challenge_B()
         {
-                //  Answer from 10-minute test session:
-                //  First snail number:[[[8,4],[[5,2],[7,0]]],[[[9,7],[8,9]],7]]
-                //  Second snail number:[[[8,[9,9]],9],[[3,[2,8]],[[9,5],[2,9]]]]
-                //  Result:[[[[8,8],[8,0]],[[8,9],[9,8]]],[[[8,8],[8,8]],[[8,8],[8,8]]]]
-                //  Magnitude: 4784
+            //  Answer from 10-minute test session:
+            //  First snail number:[[[8,4],[[5,2],[7,0]]],[[[9,7],[8,9]],7]]
+            //  Second snail number:[[[8,[9,9]],9],[[3,[2,8]],[[9,5],[2,9]]]]
+            //  Result:[[[[8,8],[8,0]],[[8,9],[9,8]]],[[[8,8],[8,8]],[[8,8],[8,8]]]]
+            //  Magnitude: 4784
 
             // Get input
-            string path = @"C:\Users\Zach Nichols\ElevenFifty\Practice\2021Advent\2021AdventChallenges\Inputs\Challenge_18a_input.txt";
-            string[] lines = System.IO.File.ReadAllLines(path);
+            string filePath = Path.Combine(@"..\..\Inputs\", "Challenge_18a_input.txt");
+            string[] lines = System.IO.File.ReadAllLines(filePath);
 
             // Record highest magnitude
             string firstSnailNumber = "";

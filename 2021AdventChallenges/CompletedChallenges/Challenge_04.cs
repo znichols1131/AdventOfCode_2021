@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -11,8 +12,8 @@ namespace _2021AdventChallenges
         public void Challenge_A()
         {
             // Get all non-blank lines from file
-            string path = @"C:\Users\Zach Nichols\ElevenFifty\Practice\2021Advent\2021AdventChallenges\Inputs\Challenge_04a_input.txt";
-            List<string> listOfLines = System.IO.File.ReadAllLines(path)
+            string filePath = Path.Combine(@"..\..\Inputs\", "Challenge_04a_input.txt");
+            List<string> listOfLines = System.IO.File.ReadAllLines(filePath)
                       .Where(x => !string.IsNullOrWhiteSpace(x))
                       .ToList<string>();
 
@@ -74,8 +75,8 @@ namespace _2021AdventChallenges
         public void Challenge_B()
         {
             // Get all non-blank lines from file
-            string path = @"C:\Users\Zach Nichols\ElevenFifty\Practice\2021Advent\2021AdventChallenges\Inputs\Challenge_04a_input.txt";
-            List<string> listOfLines = System.IO.File.ReadAllLines(path)
+            string filePath = Path.Combine(@"..\..\Inputs\", "Challenge_04a_input.txt");
+            List<string> listOfLines = System.IO.File.ReadAllLines(filePath)
                       .Where(x => !string.IsNullOrWhiteSpace(x))
                       .ToList<string>();
 

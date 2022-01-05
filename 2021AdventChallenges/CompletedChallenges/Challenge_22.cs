@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -13,8 +14,8 @@ namespace _2021AdventChallenges
         public void Challenge_A()
         {
             // Get input
-            string path = @"C:\Users\Zach Nichols\ElevenFifty\Practice\2021Advent\2021AdventChallenges\Inputs\Challenge_22a_input.txt";
-            List<string> instructions = System.IO.File.ReadAllLines(path).ToList<string>();
+            string filePath = Path.Combine(@"..\..\Inputs\", "Challenge_22a_input.txt");
+            List<string> instructions = System.IO.File.ReadAllLines(filePath).ToList<string>();
             int id = 1;
 
             // Parse instructions
@@ -53,8 +54,8 @@ namespace _2021AdventChallenges
         public void Challenge_B()
         {
             // Get input
-            string path = @"C:\Users\Zach Nichols\ElevenFifty\Practice\2021Advent\2021AdventChallenges\Inputs\Challenge_22b_input.txt";
-            List<string> instructions = System.IO.File.ReadAllLines(path).ToList<string>();
+            string filePath = Path.Combine(@"..\..\Inputs\", "Challenge_22b_input.txt");
+            List<string> instructions = System.IO.File.ReadAllLines(filePath).ToList<string>();
             int id = 1;
 
             // Parse instructions

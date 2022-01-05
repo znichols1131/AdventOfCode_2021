@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -12,7 +13,8 @@ namespace _2021AdventChallenges
         {
             List<int> depths = new List<int>();
 
-            string[] depthTexts = System.IO.File.ReadAllLines(@"C:\Users\Zach Nichols\ElevenFifty\Practice\2021Advent\2021AdventChallenges\Inputs\Challenge_01a_input.txt");
+            string filePath = Path.Combine(@"..\..\Inputs\", "Challenge_01a_input.txt");
+            string[] depthTexts = System.IO.File.ReadAllLines(filePath);
             if (depthTexts.Length == 0)
                 return;
 
@@ -57,7 +59,8 @@ namespace _2021AdventChallenges
         {
             List<int> depths = new List<int>();
 
-            string[] depthTexts = System.IO.File.ReadAllLines(@"C:\Users\Zach Nichols\ElevenFifty\Practice\2021Advent\2021AdventChallenges\Inputs\Challenge_01b_input.txt");
+            string filePath = Path.Combine(@"..\..\Inputs\", "Challenge_01b_input.txt");
+            string[] depthTexts = System.IO.File.ReadAllLines(filePath);
             if (depthTexts.Length == 0)
                 return;
 

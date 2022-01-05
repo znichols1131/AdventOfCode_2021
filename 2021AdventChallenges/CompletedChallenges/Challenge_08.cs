@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -36,8 +37,8 @@ namespace _2021AdventChallenges
         public void Challenge_A()
         {
             // Get lines
-            string path = @"C:\Users\Zach Nichols\ElevenFifty\Practice\2021Advent\2021AdventChallenges\Inputs\Challenge_08a_input.txt";
-            List<string> lines = System.IO.File.ReadAllLines(path).ToList<string>();
+            string filePath = Path.Combine(@"..\..\Inputs\", "Challenge_08a_input.txt");
+            List<string> lines = System.IO.File.ReadAllLines(filePath).ToList<string>();
 
             // Get a list of lines
             // Each line will have a list of 10 signal patterns and 4 outputs
@@ -118,8 +119,8 @@ namespace _2021AdventChallenges
         public void Challenge_B()
         {
             // Get lines
-            string path = @"C:\Users\Zach Nichols\ElevenFifty\Practice\2021Advent\2021AdventChallenges\Inputs\Challenge_08a_input.txt";
-            List<string> lines = System.IO.File.ReadAllLines(path).ToList<string>();
+            string filePath = Path.Combine(@"..\..\Inputs\", "Challenge_08a_input.txt");
+            List<string> lines = System.IO.File.ReadAllLines(filePath).ToList<string>();
 
             // Get a list of lines
             // Each line will have a list of 10 signal patterns and 4 outputs

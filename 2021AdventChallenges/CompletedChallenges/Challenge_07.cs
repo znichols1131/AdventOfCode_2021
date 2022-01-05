@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -11,8 +12,8 @@ namespace _2021AdventChallenges
         public void Challenge_A()
         {
             // Get all lines from file
-            string path = @"C:\Users\Zach Nichols\ElevenFifty\Practice\2021Advent\2021AdventChallenges\Inputs\Challenge_07a_input.txt";
-            List<string> lines = System.IO.File.ReadAllLines(path).ToList<string>();
+            string filePath = Path.Combine(@"..\..\Inputs\", "Challenge_07a_input.txt");
+            List<string> lines = System.IO.File.ReadAllLines(filePath).ToList<string>();
 
             // Get crab positions
             List<int> positions = new List<int>();
@@ -153,8 +154,8 @@ namespace _2021AdventChallenges
         public void Challenge_B()
         {
             // Get all lines from file
-            string path = @"C:\Users\Zach Nichols\ElevenFifty\Practice\2021Advent\2021AdventChallenges\Inputs\Challenge_07a_input.txt";
-            List<string> lines = System.IO.File.ReadAllLines(path).ToList<string>();
+            string filePath = Path.Combine(@"..\..\Inputs\", "Challenge_07a_input.txt");
+            List<string> lines = System.IO.File.ReadAllLines(filePath).ToList<string>();
 
             // Get crab positions
             List<int> positions = new List<int>();

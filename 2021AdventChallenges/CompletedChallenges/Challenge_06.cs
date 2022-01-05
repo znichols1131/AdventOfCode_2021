@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -13,8 +14,8 @@ namespace _2021AdventChallenges
             List<int> _listOfFish = new List<int>();
 
             // Get all lines from file
-            string path = @"C:\Users\Zach Nichols\ElevenFifty\Practice\2021Advent\2021AdventChallenges\Inputs\Challenge_06a_input.txt";
-            List<string> lines = System.IO.File.ReadAllLines(path).ToList<string>();
+            string filePath = Path.Combine(@"..\..\Inputs\", "Challenge_06a_input.txt");
+            List<string> lines = System.IO.File.ReadAllLines(filePath).ToList<string>();
 
             // Fish attributes
             int adultReset = 6;
@@ -63,8 +64,8 @@ namespace _2021AdventChallenges
             int childStart = 8;
 
             // Get all lines from file
-            string path = @"C:\Users\Zach Nichols\ElevenFifty\Practice\2021Advent\2021AdventChallenges\Inputs\Challenge_06a_input.txt";
-            List<string> lines = System.IO.File.ReadAllLines(path).ToList<string>();
+            string filePath = Path.Combine(@"..\..\Inputs\", "Challenge_06a_input.txt");
+            List<string> lines = System.IO.File.ReadAllLines(filePath).ToList<string>();
 
             // Set up fish count array
             for(int i = 0; i < 9; i++)

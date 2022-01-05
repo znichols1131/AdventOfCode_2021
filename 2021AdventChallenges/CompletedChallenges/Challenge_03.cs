@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -13,7 +14,8 @@ namespace _2021AdventChallenges
             string gammaRateStr = "";
             string epsilonRateStr = "";
 
-            string[] data = System.IO.File.ReadAllLines(@"C:\Users\Zach Nichols\ElevenFifty\Practice\2021Advent\2021AdventChallenges\Inputs\Challenge_03a_input.txt");
+            string filePath = Path.Combine(@"..\..\Inputs\", "Challenge_03a_input.txt");
+            string[] data = System.IO.File.ReadAllLines(filePath);
             int bitLength = data[0].Length;
 
             for(int i = 0; i < bitLength; i++)
@@ -77,7 +79,8 @@ namespace _2021AdventChallenges
 
         public string GetOxygenRating()
         {
-            List<string> data = System.IO.File.ReadAllLines(@"C:\Users\Zach Nichols\ElevenFifty\Practice\2021Advent\2021AdventChallenges\Inputs\Challenge_03a_input.txt").ToList<string>();
+            string filePath = Path.Combine(@"..\..\Inputs\", "Challenge_03a_input.txt");
+            List<string> data = System.IO.File.ReadAllLines(filePath).ToList<string>();
             int bitLength = data[0].Length;
 
             for (int i = 0; i < bitLength; i++)
@@ -115,7 +118,8 @@ namespace _2021AdventChallenges
 
         public string GetCO2Rating()
         {
-            List<string> data = System.IO.File.ReadAllLines(@"C:\Users\Zach Nichols\ElevenFiftyProjects\Practice\2021AdventChallenges\2021AdventChallenges\Inputs\Challenge_03a_input.txt").ToList<string>();
+            string filePath = Path.Combine(@"..\..\Inputs\", "Challenge_03a_input.txt");
+            List<string> data = System.IO.File.ReadAllLines(filePath).ToList<string>();
             int bitLength = data[0].Length;
 
             for (int i = 0; i < bitLength; i++)

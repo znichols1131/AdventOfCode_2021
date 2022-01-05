@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -25,8 +26,8 @@ namespace _2021AdventChallenges
         public void Challenge_A()
         {
             // Get line
-            string path = @"C:\Users\Zach Nichols\ElevenFifty\Practice\2021Advent\2021AdventChallenges\Inputs\Challenge_17a_input.txt";
-            string input = System.IO.File.ReadAllLines(path).First();
+            string filePath = Path.Combine(@"..\..\Inputs\", "Challenge_17a_input.txt");
+            string input = System.IO.File.ReadAllLines(filePath).First();
 
             // Get trench coordinates relative to sub (0,0)
             input = input.Replace("target area: x=", "");
@@ -92,8 +93,8 @@ namespace _2021AdventChallenges
         public void Challenge_B()
         {
             // Get line
-            string path = @"C:\Users\Zach Nichols\ElevenFifty\Practice\2021Advent\2021AdventChallenges\Inputs\Challenge_17a_input.txt";
-            string input = System.IO.File.ReadAllLines(path).First();
+            string filePath = Path.Combine(@"..\..\Inputs\", "Challenge_17a_input.txt");
+            string input = System.IO.File.ReadAllLines(filePath).First();
 
             // Get trench coordinates relative to sub (0,0)
             input = input.Replace("target area: x=", "");

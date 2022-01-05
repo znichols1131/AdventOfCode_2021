@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -17,7 +18,8 @@ namespace _2021AdventChallenges
             string dwnStr = "down";
             string upStr = "up";
 
-            string[] instructions = System.IO.File.ReadAllLines(@"C:\Users\Zach Nichols\ElevenFifty\Practice\2021Advent\2021AdventChallenges\Inputs\Challenge_02a_input.txt");
+            string filePath = Path.Combine(@"..\..\Inputs\", "Challenge_02a_input.txt");
+            string[] instructions = System.IO.File.ReadAllLines(filePath);
 
             foreach (string instruction in instructions)
             {
@@ -57,7 +59,8 @@ namespace _2021AdventChallenges
             string dwnStr = "down";
             string upStr = "up";
 
-            string[] instructions = System.IO.File.ReadAllLines(@"C:\Users\Zach Nichols\ElevenFifty\Practice\2021Advent\2021AdventChallenges\Inputs\Challenge_02a_input.txt");
+            string filePath = Path.Combine(@"..\..\Inputs\", "Challenge_02a_input.txt");
+            string[] instructions = System.IO.File.ReadAllLines(filePath);
 
             foreach (string instruction in instructions)
             {

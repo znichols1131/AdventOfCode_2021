@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -13,8 +14,8 @@ namespace _2021AdventChallenges
         public void Challenge_A()
         {
             // Get input
-            string path = @"C:\Users\Zach Nichols\ElevenFifty\Practice\2021Advent\2021AdventChallenges\Inputs\Challenge_25a_input.txt";
-            string[] lines = System.IO.File.ReadAllLines(path);
+            string filePath = Path.Combine(@"..\..\Inputs\", "Challenge_25a_input.txt");
+            string[] lines = System.IO.File.ReadAllLines(filePath);
 
             // Get sea cucumbers
             for(int row = 0; row < lines.Count(); row++)

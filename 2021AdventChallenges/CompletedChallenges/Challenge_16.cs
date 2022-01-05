@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -32,8 +33,8 @@ namespace _2021AdventChallenges
         public void Challenge_A()
         {
             // Get line
-            string path = @"C:\Users\Zach Nichols\ElevenFifty\Practice\2021Advent\2021AdventChallenges\Inputs\Challenge_16a_input.txt";
-            string hexLine = System.IO.File.ReadAllLines(path).First();
+            string filePath = Path.Combine(@"..\..\Inputs\", "Challenge_16a_input.txt");
+            string hexLine = System.IO.File.ReadAllLines(filePath).First();
             //hexLine = "A0016C880162017C3686B18A3D4780";
 
             // Convert hex to binary
@@ -57,8 +58,8 @@ namespace _2021AdventChallenges
         public void Challenge_B()
         {
             // Get line
-            string path = @"C:\Users\Zach Nichols\ElevenFifty\Practice\2021Advent\2021AdventChallenges\Inputs\Challenge_16a_input.txt";
-            string hexLine = System.IO.File.ReadAllLines(path).First();
+            string filePath = Path.Combine(@"..\..\Inputs\", "Challenge_16a_input.txt");
+            string hexLine = System.IO.File.ReadAllLines(filePath).First();
             //hexLine = "F600BC2D8F";
 
             // Convert hex to binary
