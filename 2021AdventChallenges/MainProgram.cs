@@ -67,8 +67,8 @@ namespace _2021AdventChallenges
             //(new Challenge_14()).Challenge_B();
 
             // Challenge 15
-            //(new Challenge_15()).Challenge_A();
-            //(new Challenge_15()).Challenge_B();
+            (new Challenge_15()).Challenge_A();
+            //(new Challenge_15()).Challenge_B();         // 45-minute run-time
 
             // Challenge 16
             //(new Challenge_16()).Challenge_A();
@@ -107,7 +107,7 @@ namespace _2021AdventChallenges
             //(new Challenge_24()).Challenge_B();
 
             // Challenge 25
-            (new Challenge_25()).Challenge_A();
+            //(new Challenge_25()).Challenge_A();
             //(new Challenge_25()).Challenge_B();
         }
     }

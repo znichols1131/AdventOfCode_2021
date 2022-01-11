@@ -18,7 +18,7 @@ This is my first attempt doing the [Advent of Code](https://adventofcode.com/202
 - Day 12
 - Day 13
 - Day 14
-- <span style="color:red">Day 15 (unsuccessful)</span>
+- Day 15 (Part 2 has 45-minute run-time)
 - Day 16
 - Day 17
 - Day 18
