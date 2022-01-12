@@ -46,8 +46,8 @@
     <Compile Include="CompletedChallenges\Challenge_19.cs" />
     <Compile Include="CompletedChallenges\Challenge_18.cs" />
     <Compile Include="Archived\Challenge_19_outdated.cs" />
-    <Compile Include="Challenge_23.cs" />
-    <Compile Include="Challenge_25.cs" />
+    <Compile Include="CompletedChallenges\Challenge_23.cs" />
+    <Compile Include="CompletedChallenges\Challenge_25.cs" />
     <Compile Include="CompletedChallenges\Challenge_24.cs" />
     <Compile Include="CompletedChallenges\Challenge_22.cs" />
     <Compile Include="CompletedChallenges\Challenge_21.cs" />
@@ -55,7 +55,7 @@
     <Compile Include="CompletedChallenges\Challenge_17.cs" />
     <Compile Include="CompletedChallenges\Challenge_16.cs" />
     <Compile Include="CompletedChallenges\Challenge_14.cs" />
-    <Compile Include="Challenge_15.cs" />
+    <Compile Include="CompletedChallenges\Challenge_15.cs" />
     <Compile Include="CompletedChallenges\Challenge_11.cs" />
     <Compile Include="CompletedChallenges\Challenge_12.cs" />
     <Compile Include="CompletedChallenges\Challenge_13.cs" />
@@ -101,6 +101,7 @@
     <Content Include="Inputs\Challenge_22a_input.txt" />
     <Content Include="Inputs\Challenge_22b_input.txt" />
     <Content Include="Inputs\Challenge_23a_input.txt" />
+    <Content Include="Inputs\Challenge_23b_input.txt" />
     <Content Include="Inputs\Challenge_24a_input.txt" />
     <Content Include="Inputs\Challenge_25a_input.txt" />
   </ItemGroup>

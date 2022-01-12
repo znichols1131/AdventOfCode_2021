@@ -59,6 +59,8 @@ namespace _2021AdventChallenges
         public void Challenge_B()
         {
             // Requires all other days/challenges to be complete
+            // 
+            // No puzzle for this day, just complete all 49 other stars to earn this star.
         }
 
         public bool AttemptMigration()

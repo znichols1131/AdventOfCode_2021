@@ -26,9 +26,10 @@ This is my first attempt doing the [Advent of Code](https://adventofcode.com/202
 - Day 20
 - Day 21
 - Day 22
-- <span style="color:yellow">Day 23 (skipped)</span>
+- Day 23
 - Day 24
-- <span style="color:yellow">Day 25, Part 1 (Part 2 requires completion of all previous days)</span>
+- Day 25, Part 1 (Part 2 just requires completion of all previous days)
 
 
+<span style="color:green">I did it! I'm looking forward to next year already. Happy (belated) Holidays everyone!</span>
 

@@ -10,7 +10,6 @@ namespace _2021AdventChallenges
     public class Challenge_15
     {
         private Node[,] _grid;
-        private Node[,] _expandedGrid;
         private int _endRow = 0;
         private int _endCol = 0;
         private Node _start;
